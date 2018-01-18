@@ -1,0 +1,27 @@
+select * from 
+(select e.timestamp, e.signature,s.sig_name, sc.sig_class_name, ih.*,
+th.tcp_sport as sport, th.tcp_dport as dport, th.tcp_seq as seq, th.tcp_ack as ack, th.tcp_off as offload, th.tcp_res as res, th.tcp_win as win, th.tcp_csum as csum, th.tcp_urp as urp, 0 as len, 0 as icmp_type, 0 as icmp_code, 'tcp' as protocol_type
+from event e 
+inner join signature s on s.sig_id=e.signature 
+inner join sig_class sc on s.sig_class_id=sc.sig_class_id
+inner join iphdr ih on ih.sid = e.sid and ih.cid=e.cid
+inner join tcphdr th on ih.sid = th.sid and ih.cid=th.cid
+union
+select e.timestamp, e.signature,s.sig_name, sc.sig_class_name, ih.*,
+uh.udp_sport as sport, uh.udp_dport as dport, 0 as seq, 0 as ack, 0 as offload, 0 as res, 0 as win, 0 as csum, 0 as urp, uh.udp_len as len, 0 as icmp_type, 0 as icmp_code, 'udp' as protocol_type
+from event e 
+inner join signature s on s.sig_id=e.signature 
+inner join sig_class sc on s.sig_class_id=sc.sig_class_id
+inner join iphdr ih on ih.sid = e.sid and ih.cid=e.cid
+inner join udphdr uh on ih.sid = uh.sid and ih.cid=uh.cid
+union
+select e.timestamp, e.signature,s.sig_name, sc.sig_class_name, ih.*,
+0 as sport, 0 as dport, ich.icmp_seq as seq, 0 as ack, 0 as offload, 0 as res, 0 as win, ich.icmp_csum as csum, 0 as urp, 0 as len, ich.icmp_type as icmp_type, ich.icmp_code as icmp_code,
+'icmp' as protocol_type
+from event e 
+inner join signature s on s.sig_id=e.signature 
+inner join sig_class sc on s.sig_class_id=sc.sig_class_id
+inner join iphdr ih on ih.sid = e.sid and ih.cid=e.cid
+inner join icmphdr ich on ih.sid = ich.sid and ih.cid=ich.cid)
+a
+order by a.timestamp;

@@ -1,0 +1,34 @@
+https://www.ll.mit.edu/ideval/data/1998/training/week1/monday.tar monday tcpdump.gz /home/mshaque/darpa1998/all/week1_monday
+https://www.ll.mit.edu/ideval/data/1998/training/week1/tuesday.tar tuesday tcpdump.gz /home/mshaque/darpa1998/all/week1_tuesday
+https://www.ll.mit.edu/ideval/data/1998/training/week1/wednesday.tar wednesday tcpdump.gz /home/mshaque/darpa1998/all/week1_wednesday
+https://www.ll.mit.edu/ideval/data/1998/training/week1/thursday.tar thursday tcpdump.gz /home/mshaque/darpa1998/all/week1_thursday
+https://www.ll.mit.edu/ideval/data/1998/training/week1/friday.tar friday tcpdump.gz /home/mshaque/darpa1998/all/week1_friday
+https://www.ll.mit.edu/ideval/data/1998/training/week2/monday.tar monday tcpdump.gz /home/mshaque/darpa1998/all/week2_monday
+https://www.ll.mit.edu/ideval/data/1998/training/week2/tuesday.tar tuesday tcpdump.gz /home/mshaque/darpa1998/all/week2_tuesday
+https://www.ll.mit.edu/ideval/data/1998/training/week2/wednesday.tar wednesday tcpdump.gz /home/mshaque/darpa1998/all/week2_wednesday
+https://www.ll.mit.edu/ideval/data/1998/training/week2/thursday.tar thursday tcpdump.gz /home/mshaque/darpa1998/all/week2_thursday
+https://www.ll.mit.edu/ideval/data/1998/training/week2/friday.tar  friday tcpdump.gz /home/mshaque/darpa1998/all/week2_friday
+https://www.ll.mit.edu/ideval/data/1998/training/week3/monday/tcpdump.gz /home/mshaque/darpa1998/all/week3_monday.gz week3_monday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week3/tuesday/tcpdump.gz /home/mshaque/darpa1998/all/week3_tuesday.gz week3_tuesdya.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week3/wednesday/tcpdump.gz /home/mshaque/darpa1998/all/week3_wednesday.gz week3_wednesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week3/thursday/tcpdump.gz /home/mshaque/darpa1998/all/week3_thursday.gz week3_thursday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week3/friday/tcpdump.gz /home/mshaque/darpa1998/all/week3_friday.gz week3_friday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week4/tuesday/tcpdump.gz /home/mshaque/darpa1998/all/week4_tuesday.gz week4_tuesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week4/wednesday/tcpdump.gz /home/mshaque/darpa1998/all/week4_wednesday.gz week4_wednesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week4/thursday/tcpdump.gz /home/mshaque/darpa1998/all/week4_thursday.gz week4_thursday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week4/friday/tcpdump.gz /home/mshaque/darpa1998/all/week4_friday.gz week4_friday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week5/monday/tcpdump.gz /home/mshaque/darpa1998/all/week5_monday.gz week5_monday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week5/tuesday/tcpdump.gz /home/mshaque/darpa1998/all/week5_tuesday.gz week5_tuesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week5/wednesday/tcpdump.gz /home/mshaque/darpa1998/all/week5_wednesday.gz week5_wednesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week5/thursday/tcpdump.gz /home/mshaque/darpa1998/all/week5_thursday.gz week5_thursday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week5/friday/tcpdump.gz /home/mshaque/darpa1998/all/week5_friday.gz week5_friday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week6/monday/tcpdump.gz /home/mshaque/darpa1998/all/week6_monday.gz week6_monday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week6/tuesday/tcpdump.gz /home/mshaque/darpa1998/all/week6_tuesday.gz week6_tuesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week6/wednesday/tcpdump.gz /home/mshaque/darpa1998/all/week6_wednesday.gz week6_wednesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week6/thursday/tcpdump.gz /home/mshaque/darpa1998/all/week6_thursday.gz week6_thursday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week6/friday/tcpdump.gz /home/mshaque/darpa1998/all/week6_friday.gz week6_friday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week7/monday/tcpdump.gz /home/mshaque/darpa1998/all/week7_monday.gz week7_monday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week7/tuesday/tcpdump.gz /home/mshaque/darpa1998/all/week7_tuesday.gz week7_tuesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week7/wednesday/tcpdump.gz /home/mshaque/darpa1998/all/week7_wednesday.gz week7_wednesday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week7/thursday/tcpdump.gz /home/mshaque/darpa1998/all/week7_thursday.gz week7_thursday.gz
+https://www.ll.mit.edu/ideval/data/1998/training/week7/friday/tcpdump.gz /home/mshaque/darpa1998/all/week7_friday.gz week7_friday.gz
