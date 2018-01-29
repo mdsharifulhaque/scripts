@@ -1,4 +1,8 @@
-select * from 
+select a.timestamp, a.signature, a.sig_name, a.sig_class_name, a.sid, a.cid, a.ip_src, a.ip_dst, 
+a.ip_ver, a.ip_hlen, a.ip_tos, a.ip_len, a.ip_id, a.ip_flags, a.ip_off, a.ip_ttl, a.ip_proto, a.ip_csum,
+a.sport, a.dport, a.seq, a.ack, a.offload, a.res, a.win, a.csum, a.urp, a.icmp_type, a.icmp_code,
+a. protocol_type
+from 
 (select e.timestamp, e.signature,s.sig_name, sc.sig_class_name, ih.*,
 th.tcp_sport as sport, th.tcp_dport as dport, th.tcp_seq as seq, th.tcp_ack as ack, th.tcp_off as offload, th.tcp_res as res, th.tcp_win as win, th.tcp_csum as csum, th.tcp_urp as urp, 0 as len, 0 as icmp_type, 0 as icmp_code, 'tcp' as protocol_type
 from event e 
@@ -24,4 +28,9 @@ inner join sig_class sc on s.sig_class_id=sc.sig_class_id
 inner join iphdr ih on ih.sid = e.sid and ih.cid=e.cid
 inner join icmphdr ich on ih.sid = ich.sid and ih.cid=ich.cid)
 a
-order by a.timestamp;
+order by a.timestamp
+INTO OUTFILE '/var/lib/mysql-files/alerts.csv' 
+FIELDS ENCLOSED BY '"' 
+TERMINATED BY ',' 
+ESCAPED BY '"' 
+LINES TERMINATED BY '\r\n';

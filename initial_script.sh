@@ -30,7 +30,8 @@ do
 		cd "${arr1[1]}"
 		
 		#unzip the tcpdump file
-		sudo gzip -d "${arr1[2]}"
+		#sudo gzip -d "${arr1[2]}"
+		sudo gunzip "${arr1[2]}"
 
 		#get the dump file name
 		filename=$(basename "${arr1[2]}" ".gz")
